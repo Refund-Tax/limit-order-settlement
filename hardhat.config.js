@@ -29,6 +29,9 @@ module.exports = {
     gasReporter: {
         enable: true,
     },
+    mocha: {
+        timeout: 12000000,
+    },
     dependencyCompiler: {
         paths: [
             '@1inch/solidity-utils/contracts/mocks/TokenMock.sol',
